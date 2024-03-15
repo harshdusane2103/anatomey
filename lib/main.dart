@@ -11,17 +11,51 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-       home:Scaffold(appBar: AppBar(title: const Text('SelectionContainer.disabled'),
+      debugShowCheckedModeBanner: false,
+      home: Scaffold(
+        backgroundColor: Colors.black,
+          body: Center(
+            child:Column(
+              children: [
+                Text('\n\n\nHello\n\n\n\nFlutter\n\n\n\nDart',
+                  style:TextStyle(
+                    fontSize: 30,
+                    fontWeight: FontWeight.w700,
+                    color: Colors.red,
+                    decoration:TextDecoration.underline,
+                    decorationColor: Colors.yellow,
+                  ),
+                ),
+
+                // Text('Flutter\n\n\n',
+                //   style:TextStyle(
+                //     fontSize: 30,
+                //     fontWeight: FontWeight.w700,
+                //     color: Colors.red,
+                //     decoration:TextDecoration.underline,
+                //     decorationColor: Colors.yellow,
+                //   ),
+                // ),
+
+
+                // Text('Dart\n\n\n',
+                //   style:TextStyle(
+                //     fontSize: 30,
+                //     fontWeight: FontWeight.w700,
+                //     color: Colors.red,
+                //     decoration:TextDecoration.lineThrough,
+                //     decorationColor: Colors.yellow,
+                //   ),
+                // ),
+              ],
+            ),
+          ),
+
+      ),
 
 
 
-          body:const Center(child:Text("Hello flutter"),
-            style:TextStyle(fontSize: 30,color: Colors.red),
-       ),
-       )
 
-
-    ),
 
 
 
@@ -34,6 +68,18 @@ class MyApp extends StatelessWidget {
 
 
     );
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
