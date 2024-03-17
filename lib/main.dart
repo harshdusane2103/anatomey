@@ -17,7 +17,7 @@ class MyApp extends StatelessWidget {
           body: Center(
             child:Column(
               children: [
-                Text('\n\n\nHello\n\n\n\nFlutter\n\n\n\nDart',
+                Text('   \n \n \n Hello  \n\n\n\nFlutter\n\n\n\nDart',
                   style:TextStyle(
                     fontSize: 30,
                     fontWeight: FontWeight.w700,
@@ -27,26 +27,9 @@ class MyApp extends StatelessWidget {
                   ),
                 ),
 
-                // Text('Flutter\n\n\n',
-                //   style:TextStyle(
-                //     fontSize: 30,
-                //     fontWeight: FontWeight.w700,
-                //     color: Colors.red,
-                //     decoration:TextDecoration.underline,
-                //     decorationColor: Colors.yellow,
-                //   ),
-                // ),
+               
 
-
-                // Text('Dart\n\n\n',
-                //   style:TextStyle(
-                //     fontSize: 30,
-                //     fontWeight: FontWeight.w700,
-                //     color: Colors.red,
-                //     decoration:TextDecoration.lineThrough,
-                //     decorationColor: Colors.yellow,
-                //   ),
-                // ),
+                
               ],
             ),
           ),
